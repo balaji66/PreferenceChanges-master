@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_settings:
                 // Show the settings screen
+                finish();
                 Intent settingsIntent = new Intent(this, PrefsActivity.class);
                 startActivity(settingsIntent);
                 return true;
